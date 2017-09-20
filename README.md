@@ -33,5 +33,5 @@ Parameter file:
 Data file: 
 	This file should at least contains ID and EBV or GEBV of the selection candidates. If more than one group (sex) of animals are included in the data file, then ‘sex’ of the 	individuals should be specified. Age-class and availability of the animals should be included in the file in the case of overlapping generation and multiple selection stages. Further, some maximum and minimum contributions that a specific animal can have, and fraction of offspring already allocated to a specific animal could be also included in the 	data file. The way to read the data file into GENCONT-2 is described under the parameter file section. 
 
-Pedigree file: 
+Pedigree file:
 	Almost in all cases (the exception is when ‘readin’ option is activated, see parameter file under ‘Amatrix’ keyword), a pedigree file is required to calculates relationship among selection candidates. GENCONT-2 requires the pedigree file to be 	renumbered from 1 to N. The individuals ID provided in the data file should match the ID in the pedigree file. 
