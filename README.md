@@ -27,8 +27,11 @@ with the parameter_file is the name of the ‘parameter file’ and the output_f
 
 The minimal requirement of GENCONT-2 are parameter file, data file and pedigree file. 
 
-Parameter file: this file contains all information that specifies everything GENCONT-2 needs to know about the input files and their 	outline and user running preferences (see parameter file section).
+Parameter file: 
+	This file contains all information that specifies everything GENCONT-2 needs to know about the input files and their 	outline and user running preferences (see parameter file section).
 
-Data file: this file should at least contains ID and EBV or GEBV of the selection candidates. If more than one group (sex) of animals are included in the data file, then ‘sex’ of the 	individuals should be specified. Age-class and availability of the animals should be included in the file in the case of overlapping generation and multiple selection stages. Further, some maximum and minimum contributions that a specific animal can have, and fraction of offspring already allocated to a specific animal could be also included in the 	data file. The way to read the data file into GENCONT-2 is described under the parameter file section. 
+Data file: 
+	This file should at least contains ID and EBV or GEBV of the selection candidates. If more than one group (sex) of animals are included in the data file, then ‘sex’ of the 	individuals should be specified. Age-class and availability of the animals should be included in the file in the case of overlapping generation and multiple selection stages. Further, some maximum and minimum contributions that a specific animal can have, and fraction of offspring already allocated to a specific animal could be also included in the 	data file. The way to read the data file into GENCONT-2 is described under the parameter file section. 
 
-Pedigree file: Almost in all cases (the exception is when ‘readin’ option is activated, see parameter file under ‘Amatrix’ keyword), a pedigree file is required to calculates relationship among selection candidates. GENCONT-2 requires the pedigree file to be 	renumbered from 1 to N. The individuals ID provided in the data file should match the ID in the pedigree file. 
+Pedigree file: 
+	Almost in all cases (the exception is when ‘readin’ option is activated, see parameter file under ‘Amatrix’ keyword), a pedigree file is required to calculates relationship among selection candidates. GENCONT-2 requires the pedigree file to be 	renumbered from 1 to N. The individuals ID provided in the data file should match the ID in the pedigree file. 
